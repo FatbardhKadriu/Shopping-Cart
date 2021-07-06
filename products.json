@@ -3,65 +3,65 @@
       {
         "sys": { "id": "1" },
         "fields": {
-          "title": "queen panel bed",
-          "price": 10.99,
-          "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+          "title": "Lenovo Flex 5 14\" 2-in-1 Laptop, 14.0\" FHD (1920 x 1080) Touch Display",
+          "price": 600.85,
+          "image": { "fields": { "file": { "url": "./images/product-1.jpg" } } }
         }
       },
       {
         "sys": { "id": "2" },
         "fields": {
-          "title": "king panel bed",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+          "title": "Acer Aspire 5 A515-46-R14K Slim Laptop | 15.6\" Full HD",
+          "price": 633.00,
+          "image": { "fields": { "file": { "url": "./images/product-2.jpg" } } }
         }
       },
       {
         "sys": { "id": "3" },
         "fields": {
-          "title": "single panel bed",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+          "title": "HP Chromebook 14 Laptop, 14\" HD Display",
+          "price": 234.99,
+          "image": { "fields": { "file": { "url": "./images/product-3.jpg" } } }
         }
       },
       {
         "sys": { "id": "4" },
         "fields": {
-          "title": "twin panel bed",
-          "price": 22.99,
-          "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+          "title": "Razer Blade 15 Base Gaming Laptop",
+          "price": 1199.00,
+          "image": { "fields": { "file": { "url": "./images/product-4.jpg" } } }
         }
       },
       {
         "sys": { "id": "5" },
         "fields": {
-          "title": "fridge",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+          "title": "Acer Aspire TC-895-UA92 Desktop",
+          "price": 507.29,
+          "image": { "fields": { "file": { "url": "./images/product-5.jpg" } } }
         }
       },
       {
         "sys": { "id": "6" },
         "fields": {
-          "title": "dresser",
-          "price": 32.99,
-          "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+          "title": "Acer Predator Helios 300 Gaming Laptop",
+          "price": 1349.99,
+          "image": { "fields": { "file": { "url": "./images/product-6.jpg" } } }
         }
       },
       {
         "sys": { "id": "7" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+          "title": "Acer Aspire C27-962-UA91 AIO Desktop",
+          "price": 545.99,
+          "image": { "fields": { "file": { "url": "./images/product-7.jpg" } } }
         }
       },
       {
         "sys": { "id": "8" },
         "fields": {
-          "title": "table",
-          "price": 33.99,
-          "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+          "title": "CyberpowerPC Gamer Supreme Liquid Cool Gaming PC",
+          "price": 1333.99,
+          "image": { "fields": { "file": { "url": "./images/product-8.jpg" } } }
         }
       }
     ]
