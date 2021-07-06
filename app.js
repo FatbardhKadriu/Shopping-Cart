@@ -1,13 +1,13 @@
 //variables
 
-const cartBtn      = document.querySelector(".cart-btn");
-const closeCartBtn = document.querySelector(".close-cart");
-const clearCartBtn = document.querySelector(".clear-cart");
-const cartDOM      = document.querySelector(".cart");
-const cartOverlay  = document.querySelector(".cart-overlay");
-const cartItems    = document.querySelector(".cart-items");
-const cartTotal    = document.querySelector(".cart-total");
-const cartContent  = document.querySelector(".cart-content");
+const cartBtn      = document.querySelector(".cart-btn"       );
+const closeCartBtn = document.querySelector(".close-cart"     );
+const clearCartBtn = document.querySelector(".clear-cart"     );
+const cartDOM      = document.querySelector(".cart"           );
+const cartOverlay  = document.querySelector(".cart-overlay"   );
+const cartItems    = document.querySelector(".cart-items"     );
+const cartTotal    = document.querySelector(".cart-total"     );
+const cartContent  = document.querySelector(".cart-content"   );
 const productsDOM  = document.querySelector(".products-center");
 
 // cart
@@ -95,10 +95,12 @@ class UI {
             this.addCartItem(cartItem);
 
             // show the cart
+            this.showCart();
           });
         }
     });
   }
+
   setCartValues(cart) {
     let tempTotal = 0;
     let itemsTotal = 0;
@@ -109,6 +111,7 @@ class UI {
     cartTotal.innerText = parseFloat(tempTotal.toFixed(2));
     cartItems.innerText = itemsTotal;
   }
+
   addCartItem(item) {
     const div = document.createElement('div');
     div.classList.add('cart-item');
@@ -126,6 +129,11 @@ class UI {
         </div>
     `;
     cartContent.appendChild(div);
+  }
+
+  showCart() {
+    cartOverlay.classList.add('transparentBcg');
+    cartDOM.classList.add('showCart');
   }
 }
 
